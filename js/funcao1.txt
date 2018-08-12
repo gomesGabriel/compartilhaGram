@@ -1,0 +1,8 @@
+function clickMouse(){
+	window.open('https://www.gmail.com',"",);
+}
+function huddleName(){
+	a=window.prompt('Qual seu Nome?');
+	now = new Date; 
+	document.getElementById('top').innerHTML+='<li style="float:right;" id="user"><a><h5>'+a+'<br/>'+(now.getDate())+'/'+(now.getMonth()+1)+'/'+now.getFullYear()+'<br/>'+now.getHours()+':'+now.getMinutes()+'</h5></a></li>';
+}
